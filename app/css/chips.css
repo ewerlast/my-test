@@ -1,0 +1,111 @@
+.chips {
+    padding: 10px 20px;
+    margin: 20px 10px;
+    border-radius: 12px;
+    background: rgba(0,0,0,.4);
+    color: #fff;
+}
+
+.chips-field {
+    width: 200px;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+
+/*    my cod   */
+body{
+    background-image: url(../images/sunrise-1756274_1280.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*основное окно */
+.wrapper-content{
+    width: 800px;
+    height: 600px;
+    margin: 60px auto;
+    position: relative;
+    background-image: url(../images/sunrise-1756274_1280.webp);
+    background-size: cover;
+    background-position:  center;
+}
+.color{
+    text-align: center;
+    padding-top: 60px;
+        font-size: 2em;
+        color:#ffff;
+        font-weight: bold;
+}
+input{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+}
+#run{
+    width: 120px;
+    font-size: 2em;
+    margin-left: 40%;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -ms-transition: all 0.1s;
+    -o-transition: all 0.1s;
+}
+#run:hover{
+    background-color: rgb(59, 54, 54);
+    color: rgb(220, 227, 235);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+/* всплывающее окно */
+.win{
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../images/images.jfif);
+    background-size: cover;
+    background-position:  center;
+
+}
+
+    #close{
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: none;
+        font-size: 3em;
+        margin-left: 95%;
+    }
+    .win-p{
+        text-align: center;
+        font-size: 5em;
+        color: red;
+        font-weight: bold;
+    }
+    .win video{
+        width: 600px;
+        height: 500px;
+        margin: 10px auto;
+    }
+    .timer{
+        position: absolute;
+        top: 83%;
+        left: 10%;
+        text-align: center;
+        font-size: 2.5em;
+        
+    }
+    .line{
+        width: 300px;
+        height: 10px;
+        position: absolute;
+        top: 85%;
+        left: 10%;
+    }
